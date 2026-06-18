@@ -45,7 +45,7 @@ src/main/java/pl/tasktracker/
 └── ui/                     – menu konsolowe (Scanner)
 ```
 
-Architektura trójwarstwowa: **UI → Service → Repository**, każda warstwa
+Architektura trójwarstwowa: **UI >> Service >> Repository**, każda warstwa
 korzysta tylko z warstwy poniżej.
 
 ## Funkcjonalności
@@ -53,7 +53,7 @@ korzysta tylko z warstwy poniżej.
 - Zarządzanie użytkownikami (dodawanie, lista, unikalny login)
 - Zarządzanie zadaniami (dodawanie, zmiana statusu, tagi)
 - Przypisywanie zadań do użytkowników
-- Wyszukiwanie zadania po ID – O(1)
+- Wyszukiwanie zadania po ID - O(1)
 - Grupowanie zadań po statusie (TODO / IN_PROGRESS / DONE)
 - Lista wszystkich unikalnych tagów, zawsze posortowana alfabetycznie
 - Historia operacji w systemie (chronologicznie)
